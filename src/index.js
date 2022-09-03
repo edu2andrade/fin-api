@@ -2,10 +2,10 @@ const express = require('express')
 const { v4: uuidv4 } = require("uuid")
 
 const app = express();
-app.use(express.json());
-const customers = []
-
 // middleware to understand json format
+app.use(express.json());
+
+const customers = []
 
 //middleware to verify customers taxId
 function verifyIfCustomersTaxIdExists(req, res, next) {

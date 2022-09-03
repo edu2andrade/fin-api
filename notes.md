@@ -1,6 +1,6 @@
-### FinApi - Financial App
+## FinApi - Financial App
 
-## Requisitos (Requirements)
+### Requisitos (Requirements)
 
     [x] Deve ser possível criar uma conta
     [x] Deve ser possível buscar o extrato bancário do cliente
@@ -11,7 +11,7 @@
     [] Deve ser possível obter dados da conta do cliente
     [] Deve ser possível deletar uma conta
 
-## Regras de negócio (Rules)
+### Regras de negócio (Rules)
 
     [x] Não deve ser possível cadastrar uma conta com CPF já existente
     [x] Não deve ser possível fazer depósito em uma conta não existente
